@@ -544,12 +544,18 @@ ul {
         flex-direction: column;
         gap: 10px;
         text-align: center;
+        display: none;
     }
-    
+    .navbar-toggler {
+        margin-top: 1em;
+    }
     .social-links {
         margin-left: 0;
         justify-content: center;
     }
+    .nav-cta {
+    margin-top: 1em;
+}
     
     .hero-content {
         padding-right: 0;
